@@ -1,0 +1,30 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:jackson-rce-demo-1.0-SNAPSHOT",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-08-24T00:00:00.000Z",
+    "component": {
+      "type": "application",
+      "name": "jackson-rce-demo",
+      "version": "1.0-SNAPSHOT"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "jackson-databind",
+      "version": "2.9.8",
+      "group": "com.fasterxml.jackson.core",
+      "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.8"
+    },
+    {
+      "type": "library",
+      "name": "h2",
+      "version": "1.4.199",
+      "group": "com.h2database",
+      "purl": "pkg:maven/com.h2database/h2@1.4.199"
+    }
+  ]
+}
