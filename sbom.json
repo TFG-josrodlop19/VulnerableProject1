@@ -10,7 +10,7 @@
           "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/"
         }
       ],
-      "name": "jackson-databind",
+      "name": "com.fasterxml.jackson.core:jackson-databind",
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.8",
       "type": "library",
       "version": "2.9.8"
@@ -25,7 +25,7 @@
           "url": "https://repo1.maven.org/maven2/com/h2database/h2/"
         }
       ],
-      "name": "h2",
+      "name": "com.h2database:h2",
       "purl": "pkg:maven/com.h2database/h2@1.4.199",
       "type": "library",
       "version": "1.4.199"
@@ -40,7 +40,7 @@
           "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/"
         }
       ],
-      "name": "jackson-core",
+      "name": "com.fasterxml.jackson.core:jackson-core",
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.9.8",
       "type": "library",
       "version": "2.9.8"
@@ -55,7 +55,7 @@
           "url": "https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/"
         }
       ],
-      "name": "jackson-annotations",
+      "name": "com.fasterxml.jackson.core:jackson-annotations",
       "purl": "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.9.0",
       "type": "library",
       "version": "2.9.0"

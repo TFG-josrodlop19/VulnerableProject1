@@ -17,10 +17,11 @@ public class SecondMethodCall {
 
 
 
-    public void secondVulnerableMethodCall() {
+    public void secondVulnerableMethodCall(String arg) {
         JsonProcessor processor = new JsonProcessor();        
         try {
-            processor.processJson(this.jsonString);
+            String input = this.jsonString + arg;
+            processor.processJson(input);
         } catch (IOException e) {
             System.err.println("Error en uso legítimo: " + e.getMessage());
         }
